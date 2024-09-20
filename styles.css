@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2019/09/01/18/36/road-4443223_1280.jpg'); /* Replace with a high-quality background image */
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 150px;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ff9900;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6600;
+}
+
+.features {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #555;
+}
+
+.specifications {
+    padding: 50px;
+    background-color: #004c6d;
+    color: white;
+    text-align: center;
+}
+
+.specifications h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.specs-table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.specs-table th, .specs-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.specs-table th {
+    background-color: #ff9900;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li {
+    margin-left: 20px;
+}
+
+.social-icons img {
+    max-width: 30px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
